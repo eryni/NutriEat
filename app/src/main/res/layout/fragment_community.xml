@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.community.CommunityFragment">
 
     <TextView
-        android:id="@+id/text_home"
+        android:id="@+id/text_community"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
