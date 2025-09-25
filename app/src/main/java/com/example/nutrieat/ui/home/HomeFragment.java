@@ -26,7 +26,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         // Example: dynamic profile pic URL (replace with actual user data)
-        String userProfileUrl = "https://example.com/path/to/user/pfp.jpg";
+        String userProfileUrl = "https://i.imgur.com/iDv7xPz.png";
 
         // Load profile picture with Glide into the ImageView
         Glide.with(this)
