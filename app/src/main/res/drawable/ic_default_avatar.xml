@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Transparent background (so only the image shows) -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Optional border around the circle -->
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/darker_gray" />
+
+</shape>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background (unfilled ring) -->
+    <item android:id="@+id/background">
+        <shape android:shape="ring"
+            android:thickness="8dp"
+            android:innerRadiusRatio="3">
+            <size android:width="80dp" android:height="80dp"/>
+            <solid android:color="#EEEEEE"/> <!-- light gray for empty state -->
+        </shape>
+    </item>
+
+    <!-- Foreground (filled ring) - this one uses level -->
+    <item android:id="@+id/foreground">
+        <shape android:shape="ring"
+            android:useLevel="true"
+            android:thickness="8dp"
+            android:innerRadiusRatio="3">
+            <size android:width="80dp" android:height="80dp"/>
+            <solid android:color="#00C853"/> <!-- green fill (adjust as needed) -->
+        </shape>
+    </item>
+
+</layer-list>

@@ -4,4 +4,7 @@
     <string name="title_recipe">Recipe</string>
     <string name="title_community">Community</string>
     <string name="title_search">Search</string>
+    <string name="hello_user">Hello, User!</string>
+    <string name="progress_today">Here’s your progress today.</string>
+    <string name="fiber_goal">You’re 70% to your fiber goal!</string>
 </resources>
